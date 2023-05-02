@@ -13,6 +13,7 @@ The website will cater to customers that desire handmade craftsmanship and joine
 * Provides rudimentary steps to get in contact and get a quote
 * Clear and inviting photography presenting joinery work and skills that can be provided
 * It's visually appealing and inviting for user experience
+* Well structured and informative giving confidence for first time users
 * The website is responsive, viewable and accessable on all screen-sizes 
 * Information on buisness location and opening hours
 * links to follow on social media
@@ -29,4 +30,79 @@ The website will cater to customers that desire handmade craftsmanship and joine
 * It provides customers with a feeling of warmth and reliability 
 * To give customers confidence in our services, show positive customer feedback reports
 
-   educational project
+# Website Design
+
+## Structure
+
+The website will be easy to navigate and user friendly, with a reconizeable navbar and links to lead them from one page to the other seamlessly. The website will consist of 5 pages, they are as follows:
+
+* Home: This will consist of initial information about what services we can offer.
+* About us: This will consist of details of our experience, expertise and our workshop.
+* services: This will showcase what we can offer in terms of joinery and design.
+* portfolio: An image gallery showcasing any miscellaneous derived work and skills on offer.
+* contact us: A contact page to provide guests with information of our location and contact details.
+
+## Colors
+
+For my color scheme i've chosen to go with brown for quite obvious reasons as this website is based on a wood working shop, but also because it gives off a feeling of warmth and contentment. This is what i would hope the user would sense. I also used this color scheme to make the website easy on the eyes and to give it an organic natural feel.
+
+# Features
+ ## Navigation & Logo
+
+ ## Footer
+
+ 
+ ## Home page
+ * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a buisness. Giving the user the desired information through text and imagery identifying our USP. 
+ 
+ * Below the hero image we'll show a snippet of our services to intrigue and invite the user to investigate further and navigate throughout the website. 
+
+ * As the user scrolls further they'll be introduced to a section on previous customer reviews, further accentuating a feeling of positivity and comfort in the service that they could be provided.
+ ## About Us
+ * Hero image with about us text overlay to identify new page and give user familiarity.
+ 
+ * This page will contain two sections. First section will contain information about our experience and skills to provide the user with confidence and assure them of our qualities as a professional craftsman.
+ 
+ * Second section contains information regarding the workshop and buisness, regarding where we work the location and surrounding area. Its history how long we've been in buisness. This will further cement the user with a feeling of confidence and further entice them to look through our portfolio and services.
+ ## Services page
+ 
+ * hero image with text overlay the keep the same theme running through the website.
+
+ * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a description running along each section to give the customer a better understanding of how they could utilise for themselves. It will also showcase our knowledge.
+
+
+ ## Portfolio
+ * Hero image to keep familiarity and identify what pages the customer is on.
+ * The portfolio contains a gallery of images, showing a diverse array of projects to users. Further enhancing they're trust in what we can offer.
+
+ ## Contact Page
+  * This page features a map that will replace the hero image indicating they're on the contact page.
+  * The page has a form that the user can to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
+  * it also also has our address, email and phone number in larger writing for customer to clarify our details and users with poor eyesight.
+
+ # Languages
+ * HTML
+ * CSS
+
+ # Websites & tools
+ * Balsamiq
+ * Coolors.co
+ * Google Fonts
+ * Font Awesome
+ * Github
+ * Gitpod
+ * Git
+ * Bootstrap
+
+
+
+
+
+
+
+
+
+ 
+
+
+   
