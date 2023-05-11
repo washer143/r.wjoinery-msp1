@@ -62,7 +62,6 @@ ul li a {
 
 #menu a:hover {
   background-color: #dec9a6;
-  
 }
 
 /*....................................hero image and slogan */
@@ -94,8 +93,52 @@ ul li a {
 .reliable {
   color:#f2ede3;
 }
+/*.................................... services section */
+
+#services-text h1{
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 250%;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #451400f5;
+  text-decoration: underline;
+}
 
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  min-height: 600px;
+  column-gap: 40px;
+  }
+
+  .grid_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .grid h2 {
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #451400f5;
+
+  }
+
+  .stairs {
+    padding-left: 40px;
+  }
+
+  
+  
+
+  
+
+  
 
 
     
