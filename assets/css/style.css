@@ -24,7 +24,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #e4dfb7;
+    background-color: #727778;
     justify-content: space-between;
     overflow: auto;
     min-height: 100px;
@@ -44,7 +44,7 @@ ul li a {
   font-family: lato, sans-serif;
   font-weight: 500;
   cursor: pointer;
-  color:#86534bd5;
+  color:#0d1b1e;
   text-decoration: none;
   
   
