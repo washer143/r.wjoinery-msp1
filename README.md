@@ -42,16 +42,13 @@ The website will be easy to navigate and user friendly, with a reconizeable navb
 * portfolio: An image gallery showcasing any miscellaneous derived work and skills on offer.
 * contact us: A contact page to provide guests with information of our location and contact details.
 
-## Colors
+## Colors & Fonts
 
-For my color scheme i've chosen to go with brown for quite obvious reasons as this website is based on a wood working shop, but also because it gives off a feeling of warmth and contentment. This is what i would hope the user would sense. I also used this color scheme to make the website easy on the eyes and to give it an organic natural feel.
+For my color scheme i've chosen to go with brown for quite obvious reasons as this website is based on a wood working shop, but also because it gives off a feeling of warmth and contentment. This is what i would hope the user would sense. I also used this color scheme to make the website easy on the eyes and to give it an organic natural feel. 
 
-# Features
- ## Navigation & Logo
+( description of fonts used and why)
 
- ## Footer
 
- 
  ## Home page
  * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a buisness. Giving the user the desired information through text and imagery identifying our USP. 
  
@@ -77,8 +74,20 @@ For my color scheme i've chosen to go with brown for quite obvious reasons as th
 
  ## Contact Page
   * This page features a map that will replace the hero image indicating they're on the contact page.
-  * The page has a form that the user can to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
-  * it also also has our address, email and phone number in larger writing for customer to clarify our details and users with poor eyesight.
+  * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
+  * it also also has our address, email and phone number in larger writing for customer to clarify our details and for users with poor vision.
+
+ ## Wireframes
+ * balsamiq was used to initiate website deisgn and ideas. All wire frames can be accessed here:
+ <link>
+  
+ # Features
+ 
+ ## Navigation & Logo
+
+
+
+ ## Footer
 
  # Languages
  * HTML
