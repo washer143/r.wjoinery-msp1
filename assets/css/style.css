@@ -175,7 +175,7 @@ ul li a {
   .test-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      min-height: 300px;
+      min-height: 400px;
       min-width: 100%;
       column-gap: 40px;
       padding-top: 20px;
@@ -190,6 +190,10 @@ ul li a {
 
   .test-grid p {
     padding: 20px;
+  }
+
+  .test-grid h5 {
+    text-align: center;
   }
 
   .test-1 {
@@ -211,8 +215,9 @@ ul li a {
     text-align: center;
     padding-top: 10px;
     color: orange;
-
   }
+
+
 
   
 
