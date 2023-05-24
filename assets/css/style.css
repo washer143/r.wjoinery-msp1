@@ -3,9 +3,13 @@
 *  { 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: none;
 }
+    
 
+p {
+  font-size: 1.25em;
+}
 
 
 body {
@@ -16,6 +20,12 @@ body {
     background-color: #f2ede3;
 }
 
+h1,
+h2,
+h3 {
+  font-family: mukta, sans-serif;
+
+}
 
 
 /*....................................navbar and logo */
@@ -31,7 +41,7 @@ nav {
     
     
   }
-  ul li {
+  nav ul li {
     position: relative;
     margin: 0 30px;
     list-style: none;
@@ -40,7 +50,7 @@ nav {
     font-size: 16px;
     
   }
-ul li a {
+  nav ul li a {
   font-family: lato, sans-serif;
   font-weight: 500;
   cursor: pointer;
@@ -175,11 +185,11 @@ ul li a {
   .test-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      min-height: 500px;
+      min-height: 450px;
       min-width: 100%;
       column-gap: 40px;
       padding-top: 20px;
-      padding-bottom: 100px;
+      padding-bottom: 75px;
   }
   .test-grid h2 {
     font-family: mukto, sans-serif;
@@ -219,26 +229,57 @@ ul li a {
   }
 
 /*.................................... footer content */
-
-.footer-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      min-height: 250px;
-      max-height: 250px;
-      min-width: 100%;
-      column-gap: 40px;
-      padding-top: 20px;
-      background-color: #727778;
+  
+   .footer-grid {
+    display: flex;
+    background-color: #727778;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
 }
-  .footer-grid h3 {
-    font-family: mukto, sans-serif;
-    font-weight: 500;
+  .footer-grid h3{
     text-align: center;
-    color: #fff;
+    color: #f2ede3;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-
+  .footer-grid ul li {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
     
-  
+  }
 
+  .footer-left {
+    flex-grow: 1;
+    flex-basis: 100%;
+  }
+
+  .footer-middle {
+    flex-grow: 1;
+    flex-basis: 100%;
+  }
   
+  .footer-right {
+    flex-grow: 1;
+    flex-basis: 100%;
+  }
+ 
+  .footer-text li{
+    margin: 0;
+    padding: 0%;
+    color: #f2ede3;
+    line-height: 1.5em;
+    padding-left: 9.25em;
+    
+    
+  }
+
+  .socials i {
+    font-size: 300%;
+    padding-left: 75px;
+    padding-top: 75px;
+    color: #451400f5;
+  }
+
