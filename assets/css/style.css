@@ -269,17 +269,22 @@ nav {
   .footer-text li{
     margin: 0;
     padding: 0%;
-    color: #f2ede3;
+    color: #0d1b1e;
     line-height: 1.5em;
-    padding-left: 9.25em;
-    
-    
+    padding-left: 9.25em;  
   }
 
   .socials i {
     font-size: 300%;
     padding-left: 75px;
     padding-top: 75px;
-    color: #451400f5;
+    color: #0d1b1e;
   }
 
+  .footer-grid h3 i{
+    color: #0d1b1e;
+    font-size: 150%;
+    padding-left: 0.5em;
+  }
+
+  
