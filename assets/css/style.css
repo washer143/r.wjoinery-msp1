@@ -173,19 +173,29 @@ nav ul li a {
     min-height: 600px;
     min-width: 1200px;
     margin: 0 auto;
-    column-gap: 1em;
-    padding-top: 3.25em;
-    padding-left: 3.25em;
+    column-gap: 3.25em;
+    row-gap: 6.5em;
+    padding: 4em;
+    
   }
 
   .grid-about h2 {
     font-family: mukto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 10px;
     font-weight: 500;
     font-size: 200%;
     text-align: center;
     color: #451400f5;
 
+  }
+
+  .ex-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .grid-about p {
