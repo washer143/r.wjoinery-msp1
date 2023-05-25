@@ -109,6 +109,14 @@ nav ul li a {
   
 }
 
+#cover-text-services {
+  position: relative;
+  text-align: center;
+  font-size: 250%;
+  padding-top: 4.5em;
+  letter-spacing: 4px; 
+}
+
 .bespoke {
   color: #451400f5 ;
 }
@@ -146,12 +154,11 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 600px;
-  min-width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
   column-gap: 40px;
   padding-top: 20px;
-
   }
-
   .grid h2 {
     font-family: mukto, sans-serif;
     padding-top: 10px;
@@ -159,6 +166,30 @@ nav ul li a {
     text-align: center;
     color: #451400f5;
 
+  }
+  .grid-about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 600px;
+    min-width: 1200px;
+    margin: 0 auto;
+    column-gap: 1em;
+    padding-top: 3.25em;
+    padding-left: 3.25em;
+  }
+
+  .grid-about h2 {
+    font-family: mukto, sans-serif;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 200%;
+    text-align: center;
+    color: #451400f5;
+
+  }
+
+  .grid-about p {
+    padding: 50px;
   }
 
   .grid p {
