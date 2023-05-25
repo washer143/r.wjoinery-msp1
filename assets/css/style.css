@@ -100,6 +100,15 @@ nav ul li a {
   
 }
 
+#cover-text-about {
+  position: relative;
+  text-align: center;
+  font-size: 250%;
+  padding-top: 4.5em;
+  letter-spacing: 4px;
+  
+}
+
 .bespoke {
   color: #451400f5 ;
 }
@@ -119,7 +128,7 @@ nav ul li a {
   text-align: center;
   border: transparent none;
   font-size: 300%;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #451400f5;
   text-decoration: none;
