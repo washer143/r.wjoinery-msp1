@@ -167,40 +167,7 @@ nav ul li a {
     color: #451400f5;
 
   }
-  .grid-about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    min-height: 600px;
-    min-width: 1200px;
-    margin: 0 auto;
-    column-gap: 3.25em;
-    row-gap: 6.5em;
-    padding: 4em;
-    
-  }
-
-  .grid-about h2 {
-    font-family: mukto, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    font-weight: 500;
-    font-size: 200%;
-    text-align: center;
-    color: #451400f5;
-
-  }
-
-  .ex-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .grid-about p {
-    padding: 50px;
-  }
+  
 
   .grid p {
     padding: 20px;
@@ -276,6 +243,57 @@ nav ul li a {
     padding-top: 10px;
     color: orange;
   }
+/*.................................... about page and progress bar */
+
+.grid-about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 600px;
+  min-width: 1200px;
+  margin: 0 auto;
+  column-gap: 3.25em;
+  row-gap: 6.5em;
+  padding: 4em;
+  
+}
+
+.grid-about h2 {
+  font-family: mukto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 200%;
+  text-align: center;
+  color: #451400f5;
+
+}
+
+.ex-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-about p {
+  padding: 50px;
+}
+
+#progress-bar-section{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+
+}
+
+.progress-bar1{
+  width: 50rem;
+  height: 2rem;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 /*.................................... footer content */
   
