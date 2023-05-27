@@ -147,8 +147,6 @@ nav ul li a {
   border-radius: 50px;
 }
 
-
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -164,27 +162,39 @@ nav ul li a {
     font-weight: 500;
     text-align: center;
     color: #451400f5;
-
   }
   
-
-  .grid p {
-    padding: 20px;
+  .services-grid {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 600px;
+  min-width: 1200px;
+  margin: 0 auto;
+  column-gap: 40px;
+  padding: 75px 50px;  
   }
 
-  .stairs {
-    border: 20px solid #fff;
+  .services-grid h2 {
+    font-family: mukta, sans-serif;
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #451400f5;
   }
 
-  .windows {
-    align-items: center;
+  .joinery-container {
     border: 20px solid #fff;
   }
-  .doors {
-    border: 20px solid #fff;
+  .joinery-container h2 {
+    background-color: #ffffff;
+  }
+  .joinery-container h4 {
+    padding: 30px;
+    background-color: #ffffff;
+    font-weight: 200;
+    
   }
   
-
   /*.................................... testimonials section */
 
   #testimonials {
