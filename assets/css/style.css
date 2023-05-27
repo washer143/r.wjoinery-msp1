@@ -127,7 +127,7 @@ nav ul li a {
 .services-text {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 .services-button {
   font-family: mukta, sans-serif;
@@ -156,7 +156,7 @@ nav ul li a {
   min-width: 1200px;
   margin: 0 auto;
   column-gap: 40px;
-  padding-top: 20px;
+  padding: 20px 50px;
   }
   .grid h2 {
     font-family: mukta, sans-serif;
@@ -177,6 +177,7 @@ nav ul li a {
   }
 
   .windows {
+    align-items: center;
     border: 20px solid #fff;
   }
   .doors {
@@ -194,17 +195,18 @@ nav ul li a {
     font-size: 300%;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #451400f5
+    color: #451400f5;
   }
 
   .test-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      min-height: 450px;
-      min-width: 100%;
-      column-gap: 40px;
-      padding-top: 20px;
-      padding-bottom: 75px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 450px;
+  min-width: 1200px;
+  margin: 0 auto;
+  column-gap: 40px;
+  padding: 20px 50px 50px 50px;
+      
   }
   .test-grid h2 {
     font-family: mukto, sans-serif;
