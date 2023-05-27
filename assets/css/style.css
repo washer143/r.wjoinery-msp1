@@ -74,7 +74,6 @@ nav ul li a {
 #menu a:hover {
   background-color: #d1cec9;
   border-radius: 50px;
-  padding: 5px 5px 5px 5px;
   border: transparent;
 }
 
@@ -254,9 +253,8 @@ nav ul li a {
   column-gap: 3.25em;
   row-gap: 6.5em;
   padding: 4em;
-  
 }
-
+  
 .grid-about h2 {
   font-family: mukto, sans-serif;
   display: flex;
@@ -274,8 +272,14 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 40px solid #ffffff;
+  background-color: #ffffff;
 }
 
+
+.experience {
+  border: 40px solid #fff;
+}
 .grid-about p {
   padding: 50px;
 }
@@ -300,7 +304,7 @@ nav ul li a {
   width: 40rem;
   height: 2rem;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 25px;
   overflow: hidden;
 }
 
@@ -308,14 +312,14 @@ nav ul li a {
   width: 40rem;
   height: 2rem;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 25px;
   overflow: hidden;
 }
 .progress-bar3 {
   width: 40rem;
   height: 2rem;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 25px;
   overflow: hidden;
 }
 
@@ -333,6 +337,9 @@ nav ul li a {
   float: right;
   font-weight: 500; 
   padding: 5px;
+}
+.progress-fill {
+  
 }
 /*.................................... footer content */
   
