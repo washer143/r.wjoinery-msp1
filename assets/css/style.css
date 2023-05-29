@@ -368,6 +368,17 @@ nav ul li a {
   padding: 75px;
 }
 
+.contact-hero {
+  background: url(../images/benjamin-thomas-idEEZ-wQkfA-unsplash.jpg);
+  width: 100%;
+  height:fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
 #contact-us h2{
   text-transform: uppercase;
   color: #0d1b1e;
@@ -413,7 +424,30 @@ nav ul li a {
   background-color: #625842;
 }
 
+.contact-details-right h2 {
+  padding-bottom: 40px;
+}
+
+.contact-details-right {
+  color: #0d1b1e;
+  background-color: #727778;
+  width: 450px;
+  border-radius: 10px;
+  padding: 5px;
+}
  
+.contact-details-right li{
+  list-style-type: none;
+  font-size: 120%;
+  padding-left: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-details-right img{
+  padding: 20px 85px 50px 85px;
+}
 /*.................................... footer content */
   
   .footer-grid {
