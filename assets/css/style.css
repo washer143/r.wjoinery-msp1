@@ -7,17 +7,16 @@
 }
     
 
-p {
-  font-size: 1.25em;
-}
-
-
 body {
-    
     font-family: lato, sans-serif;
     font-weight: 300;
+    max-width: 2000px;
     color: #3d3736;
     background-color: #f2ede3;
+}
+
+p {
+  font-size: 1.25em;
 }
 
 h1,
@@ -37,11 +36,10 @@ nav {
     background-color: #727778;
     justify-content: space-between;
     overflow: auto;
-    min-height: 100px;
-    
-    
+    min-height: 6.25rem;  
   }
-nav ul li {
+
+  nav ul li {
     position: relative;
     margin: 0 30px;
     list-style: none;
@@ -52,11 +50,11 @@ nav ul li {
 
   nav ul li a {
   font-family: mukta, sans-serif;
-  font-weight: 500;
-  font-size: 110%;
-  cursor: pointer;
-  color:#0d1b1e;
+  font-weight: 600;
+  font-size: 105%;
+  color:#000000;
   text-decoration: none;  
+  border-color: #000000;
 }
 
 .navbar-logo{
@@ -69,9 +67,7 @@ nav ul li {
 /*....................................active link and hover styling */
 
 #menu a:hover {
-  background-color: #d1cec9;
-  border-radius: 50px;
-  border: transparent;
+  color: #d8b16e;
 }
 
 /*....................................hero image and slogan */
