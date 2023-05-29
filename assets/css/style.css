@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Mukta&family=lato:wght@300&display=swap');
    
 *  { 
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
     
 
 body {
-    font-family: lato, sans-serif;
-    font-weight: 300;
-    max-width: 2000px;
-    color: #3d3736;
-    background-color: #f2ede3;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  max-width: 2000px;
+  color: #3d3736;
+  background-color: #f2ede3;
 }
 
 p {
@@ -30,22 +30,22 @@ h3 {
 /*....................................navbar and logo */
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #727778;
-    justify-content: space-between;
-    overflow: auto;
-    min-height: 6.25rem;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #727778;
+  justify-content: space-between;
+  overflow: auto;
+  min-height: 6.25rem;  
   }
 
-  nav ul li {
-    position: relative;
-    margin: 0 30px;
-    list-style: none;
-    display: inline-block;
-    padding: 25px;
-    font-size: 16px;   
+nav ul li {
+  position: relative;
+  margin: 0 30px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+  font-size: 16px;   
   }
 
   nav ul li a {
@@ -58,10 +58,10 @@ nav {
 }
 
 .navbar-logo{
-    height: 52px;
-    border-radius: 50%;
-    margin-top: -32px;
-    padding-left: 40px   
+  height: 52px;
+  border-radius: 50%;
+  margin-top: -32px;
+  padding-left: 40px   
 }
 
 /*....................................active link and hover styling */
