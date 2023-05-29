@@ -47,26 +47,23 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding: 25px;
-    font-size: 16px;
-    
+    font-size: 16px;   
   }
-nav ul li a {
-  font-family: lato, sans-serif;
+
+  nav ul li a {
+  font-family: mukta, sans-serif;
   font-weight: 500;
+  font-size: 110%;
   cursor: pointer;
   color:#0d1b1e;
-  text-decoration: none;
-  
-  
+  text-decoration: none;  
 }
 
 .navbar-logo{
     height: 52px;
     border-radius: 50%;
     margin-top: -32px;
-    padding-left: 40px
-   
-    
+    padding-left: 40px   
 }
 
 /*....................................active link and hover styling */
@@ -96,8 +93,7 @@ nav ul li a {
   text-align: center;
   font-size: 250%;
   padding-top: 3.25em;
-  letter-spacing: 4px;
-  
+  letter-spacing: 4px  
 }
 
 #cover-text-about {
@@ -105,8 +101,7 @@ nav ul li a {
   text-align: center;
   font-size: 250%;
   padding-top: 4.5em;
-  letter-spacing: 4px;
-  
+  letter-spacing: 4px;  
 }
 
 #cover-text-services {
@@ -130,6 +125,7 @@ nav ul li a {
   justify-content: center;
   padding: 20px;
 }
+
 .services-button {
   font-family: mukta, sans-serif;
   position: relative;
@@ -144,9 +140,7 @@ nav ul li a {
 }
 
 .services-button:hover {
-  background-color: #ffffff;
-  border: 0px solid #ffffff;
-  border-radius: 50px;
+  color: #d8b16e;
 }
 
 .grid {
@@ -157,62 +151,64 @@ nav ul li a {
   margin: 0 auto;
   column-gap: 40px;
   padding: 20px 50px;
-  }
-  .grid h2 {
-    font-family: mukta, sans-serif;
-    padding-top: 10px;
-    font-weight: 500;
-    text-align: center;
-    color: #670101;
-  }
+}
   
-  .services-grid {
-    display: grid;
+
+.grid h2 {
+  font-family: mukta, sans-serif;
+  padding-top: 10px;
+  font-weight: 500;
+  text-align: center;
+  color: #670101;
+}
+  
+  
+.services-grid {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 600px;
   min-width: 1200px;
   margin: 0 auto;
   column-gap: 40px;
-  padding: 75px 50px;  
-  }
-
-  .services-grid h2 {
-    font-family: mukta, sans-serif;
-    padding: 10px;
-    font-weight: 500;
-    text-align: center;
-    color: #670101;
-  }
-
+  padding: 75px 50px; 
+} 
   
 
-  .joinery-container {
-    border: 20px solid #ffffff;
-    border-radius: 10px;
-  }
-  .joinery-container h2 {
-    background-color: #ffffff;
-  }
-  .joinery-container h4 {
-    padding: 30px;
-    background-color: #ffffff;
-    font-weight: 200;
-  }
+.services-grid h2 {
+  font-family: mukta, sans-serif;
+  padding: 10px;
+  font-weight: 500;
+  text-align: center;
+  color: #670101; 
+}
+
+.joinery-container {
+  border: 20px solid #ffffff;
+  border-radius: 10px;
+}
+.joinery-container h2 {
+  background-color: #ffffff;
+}
+.joinery-container h4 {
+  padding: 30px;
+  background-color: #ffffff;
+  font-weight: 200;
+}
   
   /*.................................... testimonials section */
 
-  #testimonials {
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-size: 300%;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #670101;
-  }
+#testimonials {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 300%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #670101;
+}
 
-  .test-grid {
+.test-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 450px;
@@ -221,44 +217,46 @@ nav ul li a {
   column-gap: 40px;
   padding: 20px 50px 50px 50px;
       
-  }
-  .test-grid h2 {
-    font-family: mukto, sans-serif;
-    padding-top: 75px;
-    font-weight: 500;
-    text-align: center;
-    color: #670101
-  }
+}
+.test-grid h2 {
+  font-family: mukto, sans-serif;
+  padding-top: 75px;
+  font-weight: 500;
+  text-align: center;
+  color: #670101
+}
 
-  .test-grid p {
-    padding: 20px;
-  }
+.test-grid p {
+  padding: 20px;
+}
 
-  .test-grid h5 {
-    text-align: center;
-  }
+.test-grid h5 {
+  text-align: center;
+}
 
-  .test-1 {
-    border: 20px solid #f2ede3;
-    background-color: #fff;
-  }
+.test-1 {
+  border: 20px solid #f2ede3;
+  background-color: #fff;
+}
     
-  .test-2 {
-    border: 20px solid #f2ede3;
-    background-color: #fff;
-  }
+.test-2 {
+  border: 20px solid #f2ede3;
+  background-color: #fff;
+}
     
-  .test-3 {
-    border: 20px solid #f2ede3;
-    background-color: #fff;
-  }
+.test-3 {
+  border: 20px solid #f2ede3;
+  background-color: #fff;
+}
   
-  .checked {
-    text-align: center;
-    padding-top: 10px;
-    color: orange;
-  }
+.checked {
+  text-align: center;
+  padding-top: 10px;
+  color: orange;
+}
+
 /*.................................... about page and progress bar */
+
 .grid-about{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -360,6 +358,7 @@ nav ul li a {
   
 }
 /*.................................... contact section */
+
 #contact-us {
   display: grid;
   justify-items:center;
@@ -395,6 +394,7 @@ nav ul li a {
   border-radius: 10px;
   padding: 5px;
 }
+
 .text {
   background:rgba(255, 255, 255, 0.904);
   font-family: mukto, sans-serif;
@@ -463,61 +463,60 @@ nav ul li a {
 }
 /*.................................... footer content */
   
-  .footer-grid {
-    display: flex;
-    background-color: #727778;
-    height: 300px;
-    width: auto;
-    overflow: hidden;
+.footer-grid {
+  display: flex;
+  background-color: #727778;
+  height: 300px;
+  width: auto;
+  overflow: hidden;
 }
-  .footer-grid h3{
-    text-align: center;
-    color: #f2ede3;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
 
-  .footer-grid ul li {
-    margin: 0;
-    list-style: none;
-    display: inline-block;
-    
-  }
+.footer-grid h3{
+  text-align: center;
+  color: #f2ede3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  .footer-left {
-    flex-grow: 1;
-    flex-basis: 100%;
-  }
+.footer-grid ul li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
 
-  .footer-middle {
-    flex-grow: 1;
-    flex-basis: 100%;
-  }
+.footer-left {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.footer-middle {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
   
-  .footer-right {
-    flex-grow: 1;
-    flex-basis: 100%;
-  }
+.footer-right {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
  
-  .footer-text li{
-    margin: 0;
-    padding: 0%;
-    color: #0d1b1e;
-    line-height: 1.5em;
-    padding-left: 9.25em;  
-  }
+.footer-text li{
+  margin: 0;
+  padding: 0%;
+  color: #0d1b1e;
+  line-height: 1.5em;
+  padding-left: 9.25em;  
+}
 
-  .socials i {
-    font-size: 300%;
-    padding-left: 75px;
-    padding-top: 75px;
-    color: #0d1b1e;
-  }
+.socials i {
+  font-size: 300%;
+  padding-left: 75px;
+  padding-top: 75px;
+  color: #0d1b1e;
+}
 
-  .footer-grid h3 i{
-    color: #0d1b1e;
-    font-size: 150%;
-    padding-left: 0.5em;
-  }
-
+.footer-grid h3 i{
+  color: #0d1b1e;
+  font-size: 150%;
+  padding-left: 0.5em;
+}
   
