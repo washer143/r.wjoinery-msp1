@@ -438,7 +438,7 @@ nav ul li a {
 .contact-details-right li{
   list-style-type: none;
   font-size: 120%;
-  padding-left: 20px;
+  padding-left: 15px;
   font-weight: 500;
   display: flex;
   justify-content: space-around;
@@ -446,6 +446,16 @@ nav ul li a {
 
 .contact-details-right img{
   padding: 20px 85px 50px 85px;
+}
+
+.location-map {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#location-map {
+  width: 100%;
+  border: 40px solid #d1cec9;
 }
 /*.................................... footer content */
   
