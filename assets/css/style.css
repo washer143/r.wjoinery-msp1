@@ -140,6 +140,7 @@ nav ul li a {
   letter-spacing: 2px;
   color: #670101;
   text-decoration: none;
+  padding-top: 12px;
 }
 
 .services-button:hover {
