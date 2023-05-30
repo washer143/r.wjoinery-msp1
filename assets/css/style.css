@@ -166,7 +166,7 @@ nav ul li {
   min-width: 1200px;
   margin: 0 auto;
   column-gap: 40px;
-  padding: 75px 50px; 
+  padding: 40px 50px; 
 } 
   
 
@@ -333,7 +333,7 @@ nav ul li {
   height: 20px;
   border-radius: 12px;
   background-color: #670101;
-  animation: progress-bar-1 5s ease;
+  animation: progress-bar-1 10s ease;
 }
 
 .progress-bar-1 span h4 {
@@ -363,7 +363,7 @@ nav ul li {
   height: 20px;
   border-radius: 12px;
   background-color: #670101;
-  animation: progress-bar-2 5s ease;
+  animation: progress-bar-1 13s ease;
 }
 
 .progress-bar-2 span h4 {
