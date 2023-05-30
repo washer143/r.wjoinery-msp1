@@ -57,7 +57,7 @@ nav ul li {
   border-color: #000000;
 }
 
-.navbar-logo{
+#navbar-logo{
   height: 52px;
   border-radius: 50%;
   margin-top: -32px;
@@ -227,6 +227,7 @@ nav ul li {
 .test-grid h2 {
   font-family: mukto, sans-serif;
   padding-top: 75px;
+  padding-bottom: 20px;
   font-weight: 500;
   text-align: center;
   color: #670101
@@ -347,12 +348,6 @@ nav ul li {
   animation: progress-bar-1 10s ease;
 }
 
-.progress-bar-1 span h4 {
-  color: #d8b16e;
-  float: right;
-  font-weight: 300;
-}
-
 .progress-bar-2 {
   position: relative;
   width: 40rem;
@@ -377,11 +372,6 @@ nav ul li {
   animation: progress-bar-1 13s ease;
 }
 
-.progress-bar-2 span h4 {
-  color: #d8b16e;
-  float: right;
-  font-weight: 300;
-}
 
 @keyframes  progress-bar-2 {
   0% {
