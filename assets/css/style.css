@@ -139,7 +139,7 @@ nav ul li {
   color: #d8b16e;
 }
 
-hr {
+ hr {
   border-top: 4px solid #d8b16e;
   width: 60px;
   border-radius: 2px;
@@ -300,7 +300,8 @@ hr {
   border-radius: 10px;
 }
 .grid-about h4 {
-  padding: 50px;
+  font-family: mukta, sans-serif;
+  padding: 20px;
   font-weight: 200;
 }
 
