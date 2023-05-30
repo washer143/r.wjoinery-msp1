@@ -190,13 +190,14 @@ nav ul li {
 .joinery-container {
   border: 20px solid #ffffff;
   border-radius: 10px;
+  background-color: #ffffff;
 }
 .joinery-container h2 {
   background-color: #ffffff;
 }
 .joinery-container h4 {
-  padding: 30px;
-  background-color: #ffffff;
+  font-family: mukta, sans-serif;
+  padding: 10px;
   font-weight: 200;
 }
   
