@@ -312,46 +312,84 @@ nav ul li {
     color: #670101;
 }
 
-.progress-bar1 {
+.progress-bar-1 {
+  position: relative;
   width: 40rem;
-  height: 2rem;
+  height: 24px;
+  padding-left: 4px;
+  padding-top: 4px;
   background: #fff;
   border-radius: 25px;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d8b16e;
 }
 
-.progress-bar2 {
-  width: 40rem;
-  height: 2rem;
-  background: #fff;
-  border-radius: 25px;
-  overflow: hidden;
-}
-.progress-bar3 {
-  width: 40rem;
-  height: 2rem;
-  background: #fff;
-  border-radius: 25px;
-  overflow: hidden;
+.progress-bar-1 span {
+  position: absolute;
+  display:inline-block; 
+  vertical-align: middle;
+  height: 20px;
+  border-radius: 12px;
+  background-color: #670101;
+  animation: progress-bar-1 5s ease;
 }
 
-.progress-bar1 span {
+.progress-bar-1 span h4 {
+  color: #d8b16e;
   float: right;
-  font-weight: 500; 
-  padding: 5px;
+  font-weight: 300;
 }
-.progress-bar2 span {
+
+.progress-bar-2 {
+  position: relative;
+  width: 40rem;
+  height: 24px;
+  padding-left: 4px;
+  padding-top: 4px;
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d8b16e;
+}
+
+.progress-bar-2 span {
+  position: absolute;
+  display:inline-block; 
+  vertical-align: middle;
+  height: 20px;
+  border-radius: 12px;
+  background-color: #670101;
+  animation: progress-bar-2 5s ease;
+}
+
+.progress-bar-2 span h4 {
+  color: #d8b16e;
   float: right;
-  font-weight: 500; 
-  padding: 5px;
+  font-weight: 300;
 }
-.progress-bar3 span {
-  float: right;
-  font-weight: 500; 
-  padding: 5px;
-}
-.progress-fill {
+
+@keyframes  progress-bar-2 {
+  0% {
+    width: 10%;
+  }
   
+  90% {
+    width: 90%;
+  }
+}
+
+@keyframes  progress-bar-1 {
+  0% {
+    width: 10%;
+  }
+  
+  95% {
+    width: 95%;
+  }
 }
 /*.................................... contact section */
 
