@@ -119,7 +119,7 @@ nav ul li {
 .services-text {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 20px 20px 0px;
 }
 
 .services-button {
@@ -132,11 +132,20 @@ nav ul li {
   letter-spacing: 2px;
   color: #670101;
   text-decoration: none;
-  padding-top: 12px;
+  padding-top: 20px;
 }
 
 .services-button:hover {
   color: #d8b16e;
+}
+
+hr {
+  border-top: 4px solid #d8b16e;
+  width: 60px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
 
 .grid {
@@ -269,12 +278,11 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding: 20px;
   font-weight: 500;
   font-size: 200%;
   text-align: center;
   color: #670101;
-
 }
 
 .ex-img {
