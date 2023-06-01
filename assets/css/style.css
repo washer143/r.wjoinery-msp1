@@ -609,6 +609,7 @@ nav ul li {
 
   #footer-grid {
     display: table-footer-group;
+    padding-top: 40px;
   }
 
   .footer-text li
@@ -618,14 +619,61 @@ nav ul li {
 }
  #socials i {
   padding: 50px;
+  
  }
  
-  @media screen and (min-width: 768px)
+  @media screen and (max-width: 750px)
   {
-
+    nav ul li{
+      margin: 0px;
+      font-size: 14px;
+    }
+  
+    #grid-about,
+    #services-grid,
+    #grid,
+    #contact-us,
+    #test-grid
+    {
+      display: inline;
+    }  
+  
+    #test-1,
+    #test-2,
+    #test-3 {
+      padding-bottom: 75px;
+  
+    }
+  
+    #grid-about img,
+    #grid img,
+    #services-grid img {
+      
+    }
+  
+    #progress-bar-section {
+      display: unset;
+    }
+    #progress-bar-section img {
+      padding: 70px 0px 40px 150px;
   }
-  @media screen and (min-width: 1300px)
-  {
+    }
 
+    #footer-grid {
+      width: 50%;
+    }
+    
+  }
+  @media screen and (max-width: 1300px)
+
+  {
+#grid-about,
+    #services-grid,
+    #grid,
+    #contact-us,
+    #test-grid
+    {
+      display: grid;
+    }  
   }
   
