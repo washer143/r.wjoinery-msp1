@@ -147,7 +147,7 @@ nav ul li {
   padding-bottom: 20px;
 }
 
-#grid {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 600px;
@@ -158,7 +158,7 @@ nav ul li {
 }
   
 
-#grid h2 {
+.grid h2 {
   font-family: mukta, sans-serif;
   padding-top: 10px;
   font-weight: 500;
@@ -167,7 +167,7 @@ nav ul li {
 }
   
   
-#services-grid {
+.services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 600px;
@@ -178,7 +178,7 @@ nav ul li {
 } 
   
 
-#services-grid h2 {
+.services-grid h2 {
   font-family: mukta, sans-serif;
   padding: 10px;
   font-weight: 500;
@@ -218,7 +218,7 @@ nav ul li {
   color: #670101;
 }
 
-#test-grid {
+.test-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 450px;
@@ -228,7 +228,7 @@ nav ul li {
   padding: 20px 50px 50px 50px;
       
 }
-#test-grid h2 {
+.test-grid h2 {
   font-family: mukto, sans-serif;
   padding-top: 75px;
   padding-bottom: 20px;
@@ -237,26 +237,26 @@ nav ul li {
   color: #670101
 }
 
-#test-grid p {
+.test-grid p {
   padding: 20px;
   font-size: 90%;
 }
 
-#test-grid h5 {
+.test-grid h5 {
   text-align: center;
 }
 
-#test-1 {
+.test-1 {
   border: 20px solid #f2ede3;
   background-color: #fff;
 }
     
-#test-2 {
+.test-2 {
   border: 20px solid #f2ede3;
   background-color: #fff;
 }
     
-#test-3 {
+.test-3 {
   border: 20px solid #f2ede3;
   background-color: #fff;
 }
@@ -269,7 +269,7 @@ nav ul li {
 
 /*.................................... about page and progress bar */
 
-#grid-about{
+.grid-about{
   display: grid;
   grid-template-columns:repeat(2, 1fr);
   min-height: 600px;
@@ -281,7 +281,7 @@ nav ul li {
 
 }
   
-#grid-about h2 {
+.grid-about h2 {
   font-family: mukto, sans-serif;
   display: flex;
   align-items: center;
@@ -307,7 +307,7 @@ nav ul li {
   border: 40px solid #fff;
   border-radius: 10px;
 }
-#grid-about h4 {
+.grid-about h4 {
   font-family: mukta, sans-serif;
   padding: 20px;
   font-weight: 200;
@@ -317,12 +317,12 @@ nav ul li {
 #progress-bar-section{
   display: flex;
   justify-content: space-around;
-  padding: 150px 75px 150px 75px;
-  width: auto;
+  padding: 75px 75px 150px 75px;
+  
 }
 #progress-bar-section img {
   max-width: 100%;
-  height: auto;
+  
 }
 
 
@@ -331,7 +331,7 @@ nav ul li {
     color: #670101;
 }
 
-#progress-bar-1 {
+.progress-bar-1 {
   position: relative;
   width: 40rem;
   height: 24px;
@@ -343,10 +343,10 @@ nav ul li {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
   border: 1px solid #d8b16e;
-  width: auto;
+  
 }
 
-#progress-bar-1 span {
+.progress-bar-1 span {
   position: absolute;
   display:inline-block; 
   vertical-align: middle;
@@ -356,7 +356,7 @@ nav ul li {
   animation: progress-bar-1 10s ease;
 }
 
-#progress-bar-2 {
+.progress-bar-2 {
   position: relative;
   width: 40rem;
   height: 24px;
@@ -368,10 +368,9 @@ nav ul li {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
   border: 1px solid #d8b16e;
-  width: auto;
 }
 
-#progress-bar-2 span {
+.progress-bar-2 span {
   position: absolute;
   display:inline-block; 
   vertical-align: middle;
@@ -403,7 +402,7 @@ nav ul li {
 }
 /*.................................... contact section */
 
-#contact-us {
+.contact-us {
   display: grid;
   justify-items:center;
   grid-template-columns: repeat(2, 1fr);
@@ -424,14 +423,14 @@ nav ul li {
 }
 
 
-#contact-us h2{
+.contact-us h2{
   text-transform: uppercase;
   color: #0d1b1e;
   text-align: center;
   font-size: 180%;
   padding-top: 12px;
 }
-#contact-left{
+.contact-left{
   color: #0d1b1e;
   background-color: rgba(255, 255, 255, 0.339);
   width: 450px;
@@ -474,7 +473,7 @@ nav ul li {
   padding-bottom: 40px;
 }
 
-#contact-right {
+.contact-right {
   color: #0d1b1e;
   background-color: rgba(255, 255, 255, 0.339);
   width: 450px;;
@@ -483,7 +482,7 @@ nav ul li {
   padding: 5px;
 }
  
-#contact-right li{
+.contact-right li{
   list-style-type: none;
   font-size: 120%;
   padding-left: 15px;
@@ -492,7 +491,7 @@ nav ul li {
   justify-content: space-around;
 }
 
-#contact-right img{
+.contact-right img{
   padding: 20px 85px 50px 85px;
 }
 
@@ -507,7 +506,7 @@ nav ul li {
 }
 /*.................................... footer content */
   
-#footer-grid {
+.footer-grid {
   display: flex;
   background-color: #727778;
   height: 300px;
@@ -515,30 +514,30 @@ nav ul li {
   overflow: hidden;
 }
 
-#footer-grid h3 {
+.footer-grid h3 {
   text-align: center;
   color: #f2ede3;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#footer-grid ul li {
+.footer-grid ul li {
   margin: 0;
   list-style: none;
   display: inline-block;
+
 }
 
-#footer-left {
+.footer-left {
   flex-grow: 1;
   flex-basis: 100%;
 }
-
-#footer-middle {
+.footer-middle {
   flex-grow: 1;
   flex-basis: 100%;
 }
   
-#footer-right {
+.footer-right {
   flex-grow: 1;
   flex-basis: 100%;
 }
@@ -558,7 +557,7 @@ nav ul li {
   color: #0d1b1e;
 }
 
-#footer-grid h3 i{
+.footer-grid h3 i{
   color: #0d1b1e;
   font-size: 150%;
   padding-left: 0.5em;
@@ -569,12 +568,13 @@ nav ul li {
  @media screen and (max-width: 576px)
  {
     nav ul li{
-    margin: 0;
-    font-size: 14px;
+    margin: 0.2em;
+    font-size: 12px;
+    padding: 18px;
   }
 
   #navbar-logo {
-    padding: 40px 20px 40px 0px;
+    padding: 70px 0px 75px 0px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -582,62 +582,89 @@ nav ul li {
   #cover-text {
     font-size: 35px;
   }
-  #grid-about,
-  #services-grid,
-  #grid,
-  #contact-us,
-  #test-grid
+  .grid-about,
+  .services-grid,
+  .grid,
+  .test-grid
   {
     display: inline;
     padding: 0px;
   }  
 
-  #test-1,
-  #test-2,
-  #test-3 {
+  .contact-us {
+    display: inline;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: auto;
+  }
+
+  .test-1,
+  .test-2,
+  .test-3 {
     padding-bottom: 5rem;
 
   }
 
   
-  #grid img,
-  #services-grid img {
+  .grid img,
+  .services-grid img {
     width: 100%;
+    height: 100%;
   }
 
   #progress-bar-section {
-    display: unset;
+    display: grid;
+    padding-bottom: 6rem;
   }
+
   #progress-bar-section img {
-    padding: 70px 0px 40px 0px;
+    padding-bottom: 3rem;
   }
 
-  #footer-grid {
-    display: table-footer-group;
-    padding-top: 40px;
+  .progress-bar-1,
+  .progress-bar-2 {
+    width:auto;
+
   }
 
-  .footer-text li
-  {
-    text-align: center;
-  }
-}
- #socials i {
-  padding: 50px;
-  
+
+ .footer-grid {
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+ }
+
+ .footer text li {
+  align-items: center;
  }
  
-  @media screen and (max-width: 950px)
+ #socials i {
+  font-size: 220%;
+  padding: 0px 60px 35px 40px;
+ }
+}
+ 
+  @media screen and (max-width: 768px)
   {
-    #grid-about,
-    #services-grid,
-    #grid,
-    #contact-us,
-    #test-grid
-    {
-      
-    }  
+    nav ul li{
+    margin: 0.2em;
+    font-size: 16px;
+    padding: 20px;
   }
+
+  
+  #grid-about,
+  #services-grid,
+  #grid,
+  #contact-us,
+  #test-grid
+  { 
+
+  }
+  
+}
   @media screen and (max-width: 1300px)
 
   {
