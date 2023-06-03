@@ -220,8 +220,6 @@ nav ul li {
 .test-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
-  min-height: 450px;
-  min-width: 1200px;
   margin: 0 auto;
   column-gap: 40px;
   padding: 20px 50px 50px 50px;
@@ -539,7 +537,7 @@ nav ul li {
   flex-grow: 1;
   flex-basis: 100%;
 }
- 
+
 .footer-text li{
   margin: 0;
   padding: 0;
@@ -704,10 +702,24 @@ nav ul li {
     width: auto;
   }
   
-  
-   .footer text {
-    padding: 40px;
+  .footer-grid {
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    
    }
+
+   .footer-text li{
+    line-height: 1.5em;
+    padding: 2em;  
+   
+  }
+   
+   #socials i {
+    font-size: 220%;
+    padding: 8%;
+   }
+  
       
   @media screen and (max-width: 1300px)
 
