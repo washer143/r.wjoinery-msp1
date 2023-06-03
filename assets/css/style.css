@@ -149,11 +149,10 @@ nav ul li {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  min-height: 600px;
-  min-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
   margin: 0 auto;
   column-gap: 40px;
+  row-gap: 40px;
   padding: 20px 50px;
 }
   
@@ -169,12 +168,11 @@ nav ul li {
   
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  min-height: 600px;
-  min-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
   margin: 0 auto;
   column-gap: 40px;
-  padding: 40px 50px; 
+  row-gap: 40px;
+  padding: 20px 50px;
 } 
   
 
@@ -192,17 +190,18 @@ nav ul li {
   background-color: #ffffff;
 }
 .joinery-container h2 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #ffffff;
 }
 .joinery-container h4 {
+  display: flex;
+  justify-content: center;
   font-family: mukta, sans-serif;
   padding: 10px;
   font-weight: 200;
   color: #000000;
-}
-
-.joinery-container img {
-  object-fit: cover;
 }
   
   /*.................................... testimonials section */
@@ -220,7 +219,7 @@ nav ul li {
 
 .test-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
   min-height: 450px;
   min-width: 1200px;
   margin: 0 auto;
@@ -404,14 +403,12 @@ nav ul li {
 
 .contact-us {
   display: grid;
-  justify-items:center;
-  grid-template-columns: repeat(2, 1fr);
-  min-height: 600px;
-  min-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  justify-items: center;
   margin: 0 auto;
-  column-gap: 3.25em;
+  column-gap: 8.75rem;
   row-gap: 6.5em;
-  padding: 75px;
+  padding: 125px;
 }
 
 #contact-hero {
@@ -508,6 +505,7 @@ nav ul li {
   
 .footer-grid {
   display: flex;
+  flex-direction: row;
   background-color: #727778;
   height: 300px;
   width: auto;
@@ -524,7 +522,7 @@ nav ul li {
 .footer-grid ul li {
   margin: 0;
   list-style: none;
-  display: inline-block;
+  display: inline;
 
 }
 
@@ -544,7 +542,7 @@ nav ul li {
  
 .footer-text li{
   margin: 0;
-  padding: 0%;
+  padding: 0;
   color: #0d1b1e;
   line-height: 1.5em;
   padding-left: 9.25em;  
@@ -552,7 +550,7 @@ nav ul li {
 
 #socials i {
   font-size: 300%;
-  padding-left: 75px;
+  padding-left:75px;
   padding-top: 75px;
   color: #0d1b1e;
 }
@@ -629,42 +627,67 @@ nav ul li {
 
   }
 
-
  .footer-grid {
   flex-direction: column;
   height: auto;
   align-items: center;
  }
 
- .footer text li {
-  align-items: center;
+ .footer-grid ul {
+  width: 400px;
  }
  
  #socials i {
   font-size: 220%;
-  padding: 0px 60px 35px 40px;
+  padding: 0px 40px 35px 40px;
  }
 }
  
-  @media screen and (max-width: 768px)
+  @media screen and (max-width: 767px)
   {
     nav ul li{
     margin: 0.2em;
     font-size: 16px;
     padding: 20px;
   }
-
   
-  #grid-about,
-  #services-grid,
-  #grid,
-  #contact-us,
-  #test-grid
-  { 
+  .services-grid {
+    padding: 0%;
+    background-color: #fff;
+  }
 
+  .services-grid img{
+    width: 320px;
+  }
+
+  .joinery-container-no {
+    display: none;
   }
   
-}
+  .grid-about {
+    display: inline;
+    margin: 40px;
+  }
+
+  #progress-bar-section {
+    display: grid;
+    padding-bottom: 6rem;
+  }
+
+  #progress-bar-section img {
+    padding-bottom: 3rem;
+  }
+
+  .progress-bar-1,
+  .progress-bar-2 {
+    width:auto;
+  }
+  
+  
+   .footer text {
+    padding: 40px;
+   }
+      
   @media screen and (max-width: 1300px)
 
   {
