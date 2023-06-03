@@ -149,7 +149,7 @@ nav ul li {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
   margin: 0 auto;
   column-gap: 40px;
   row-gap: 40px;
@@ -608,6 +608,7 @@ nav ul li {
   
   .grid img,
   .services-grid img {
+    justify-items: center;
     width: 100%;
     height: 100%;
   }
@@ -643,30 +644,34 @@ nav ul li {
  }
 }
  
-  @media screen and (max-width: 767px)
+  @media screen and (max-width: 768px)
   {
     nav ul li{
-    margin: 0.2em;
-    font-size: 16px;
-    padding: 20px;
-  }
+      margin: 0.6em;
+      font-size: 14px;
+      padding: 18px;
+    }
   
   .services-grid {
     padding: 0%;
     background-color: #fff;
+    column-gap: 0%;
   }
-
+  
   .services-grid img{
-    width: 320px;
+    width: 100%;
+    justify-self: center;
+    
   }
 
-  .joinery-container-no {
-    display: none;
-  }
   
   .grid-about {
     display: inline;
     margin: 40px;
+  }
+
+  .grid-about img {
+    width: 90%;
   }
 
   #progress-bar-section {
@@ -680,7 +685,7 @@ nav ul li {
 
   .progress-bar-1,
   .progress-bar-2 {
-    width:auto;
+    width: auto;
   }
   
   
