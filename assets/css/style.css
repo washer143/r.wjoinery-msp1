@@ -658,13 +658,18 @@ nav ul li {
     column-gap: 0%;
   }
   
+  .grid{
+    padding: 5% 15% 0% 15%;
+  }
+
+  .grid img {
+    width: 100%;
+  }
   .services-grid img{
     width: 100%;
     justify-self: center;
     
   }
-
-  
   .grid-about {
     display: inline;
     margin: 40px;
@@ -672,6 +677,17 @@ nav ul li {
 
   .grid-about img {
     width: 90%;
+  }
+
+  .test-grid{
+    display:inline;
+
+  }
+  
+  .test-1,
+  .test-2,
+  .test-3 {
+    padding-bottom: 5em;
   }
 
   #progress-bar-section {
