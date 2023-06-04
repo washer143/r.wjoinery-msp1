@@ -718,13 +718,9 @@ nav ul li {
     column-gap: 0%;
   }
 
-  .grid {
-    
-  }
-
   .grid img {
     width: 100%;
-    height: 82%;
+    height: 75%;
   }
   .services-grid img{
     width: 80%;
