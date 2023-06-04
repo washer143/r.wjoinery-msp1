@@ -34,37 +34,38 @@ The website will cater to customers that desire handmade craftsmanship and joine
 
 ## Structure
 
-The website will be easy to navigate and user friendly, with a reconizeable navbar and links to lead them from one page to the other seamlessly. The website will consist of 5 pages, they are as follows:
+The website will be easy to navigate and user friendly, with a reconizeable navbar and links to lead them from one page to the other seamlessly. The website will consist of 4 pages, they are as follows:
 
 * Home: This will consist of initial information about what services we can offer.
 * About us: This will consist of details of our experience, expertise and our workshop.
-* services: This will showcase what we can offer in terms of joinery and design..
+* services: This will showcase what we can offer in terms of joinery and design.
 * contact us: A contact page to provide guests with information of our location and contact details.
 
 ## Colors & Fonts
 
-For my color scheme i've chosen to go with brown for quite obvious reasons as this website is based on a wood working shop, but also because it gives off a feeling of warmth and contentment. This is what i would hope the user would sense. I also used this color scheme to make the website easy on the eyes and to give it an organic natural feel. 
-
-( description of fonts used and why)
+For my color scheme i've chosen to use grey and black for  for quite obvious reasons as this website is based on a wood working shop, but also because it gives off a feeling of warmth and contentment. This is what i would hope the user would sense. I also used this color scheme to make the website easy on the eyes and to give it an organic natural feel.
+     
 
 
  ## Home page
- * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a buisness. Giving the user the desired information through text and imagery identifying our USP. 
+ * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a business. Giving the user the desired information through text and imagery identifying our USP. 
  
  * Below the hero image we'll show a snippet of our services to intrigue and invite the user to investigate further and navigate throughout the website. 
 
  * As the user scrolls further they'll be introduced to a section on previous customer reviews, further accentuating a feeling of positivity and comfort in the service that they could be provided.
+ 
+ 
  ## About Us
  * Hero image with about us text overlay to identify new page and give user familiarity.
  
- * This page will contain two sections. First section will contain information about our experience and skills to provide the user with confidence and assure them of our qualities as a professional craftsman.
+ * This page contains two sections. First section will contain information about our experience and skills to provide the user with confidence and assure them of our qualities as a professional craftsman. We will also try and create rapport with the user telling them a story about our workshop and how we built the business.
  
- * Second section contains information regarding the workshop and buisness, regarding where we work the location and surrounding area. Its history how long we've been in buisness. This will further cement the user with a feeling of confidence and further entice them to look through our portfolio and services.
- ## Services page
+ * The second part of this page we will provide progress bars to give users a visual cue of our abilities as a business and craftsmen.
  
- * hero image with text overlay the keep the same theme running through the website.
+ ## Services
+ * hero image with text overlay to keep the same theme running through the website.
 
- * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a description running along each section to give the customer a better understanding of how they could utilise for themselves. It will also showcase our knowledge.
+ * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a description running along each section to give the customer a better understanding of how they could utilize for themselves. It will also showcase our knowledge.
 
  ## Contact Page
   * This page will feature a new hero image as a back drop to signify importance to get in contact.
@@ -81,7 +82,9 @@ For my color scheme i've chosen to go with brown for quite obvious reasons as th
 
 
  ## Footer
-
+# Testing
+## Validation
+## Responsiveness
  # Languages
  * HTML
  * CSS
