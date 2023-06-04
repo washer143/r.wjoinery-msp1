@@ -25,7 +25,7 @@ The website will cater to customers that desire handmade craftsmanship and joine
 * Creating an online presence to grow our local customer base
 * Providing easy access to contact the buisness 
 * Growing our social media following
-* Accessable for disabled users
+* Access for disabled users
 * Information is intuitive to follow 
 * It provides customers with a feeling of warmth and reliability 
 * To give customers confidence in our services, show positive customer feedback reports
@@ -38,8 +38,7 @@ The website will be easy to navigate and user friendly, with a reconizeable navb
 
 * Home: This will consist of initial information about what services we can offer.
 * About us: This will consist of details of our experience, expertise and our workshop.
-* services: This will showcase what we can offer in terms of joinery and design.
-* portfolio: An image gallery showcasing any miscellaneous derived work and skills on offer.
+* services: This will showcase what we can offer in terms of joinery and design..
 * contact us: A contact page to provide guests with information of our location and contact details.
 
 ## Colors & Fonts
@@ -67,19 +66,13 @@ For my color scheme i've chosen to go with brown for quite obvious reasons as th
 
  * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a description running along each section to give the customer a better understanding of how they could utilise for themselves. It will also showcase our knowledge.
 
-
- ## Portfolio
- * Hero image to keep familiarity and identify what pages the customer is on.
- * The portfolio contains a gallery of images, showing a diverse array of projects to users. Further enhancing they're trust in what we can offer.
-
  ## Contact Page
-  * This page features a map that will replace the hero image indicating they're on the contact page.
+  * This page will feature a new hero image as a back drop to signify importance to get in contact.
   * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
-  * it also also has our address, email and phone number in larger writing for customer to clarify our details and for users with poor vision.
+  * it also also has our address, email and phone number in larger writing for customers to clarify our details and for users with poor vision.
 
  ## Wireframes
- * balsamiq was used to initiate website deisgn and ideas. All wire frames can be accessed here:
- <link>
+ * balsamiq was used to initiate website deisgn and ideas. All wire frames can be accessed here
   
  # Features
  
@@ -95,13 +88,13 @@ For my color scheme i've chosen to go with brown for quite obvious reasons as th
 
  # Websites & tools
  * Balsamiq
- * Coolors.co
+ * Coolors.com
  * Google Fonts
  * Font Awesome
  * Github
  * Gitpod
  * Git
- * Bootstrap
+ * freeconvert.com
 
 
 

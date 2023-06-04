@@ -573,6 +573,8 @@ nav ul li {
 }
 
  }
+
+ /*.................................... small to medium screen sizes */
  @media screen and (max-width: 576px)
  
  {
@@ -580,7 +582,7 @@ nav ul li {
     nav ul li {
     margin: 0.1em;
     font-size: 14px;
-    padding: 18px;
+    padding: 16px;
   }
 
 
@@ -648,7 +650,7 @@ nav ul li {
  }
  
 }
- 
+ /*.................................... medium to large tablet screen sizes */
   @media screen and (max-width: 768px)
   {
   .services-grid {
@@ -758,17 +760,10 @@ nav ul li {
     width: auto;
   }
    }
-   
+   /*.................................... large screen size */
   @media screen and (max-width: 1440px)
 
   {
-  /*
-    nav ul li {
-      margin: 0.2em;
-      font-size: 16px;
-      padding: 40px;
-    }
-  */
     .grid-about img,
     .services-grid img,
     .grid img {
