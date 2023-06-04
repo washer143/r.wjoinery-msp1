@@ -72,7 +72,7 @@ nav ul li {
 /*....................................hero image and slogan */
 
 #hero-image {
-  background-image: url("../images/austin-ramsey-nmXi-HCD_F8-unsplash.jpg");
+  background-image: url("../images/austin-ramsey-nmXi-HCD_F8-unsplash.webp");
   width: 100%;
   height: 500px;
   opacity: 0.9;
@@ -407,7 +407,7 @@ nav ul li {
 }
 
 #contact-hero {
-  background: url(../images/benjamin-thomas-idEEZ-wQkfA-unsplash.jpg);
+  background: url(../images/benjamin-thomas-idEEZ-wQkfA-unsplash.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
