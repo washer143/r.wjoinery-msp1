@@ -219,11 +219,9 @@ nav ul li {
 
 .test-grid {
   display:flex;
-  max-width: 1200px;
-  min-height: 400px;
   margin: 0 auto;
   column-gap: 40px;
-  padding: 20px 50px 50px 50px;
+  padding: 20px 40px 40px 40px;
       
 }
 .test-grid h2 {
@@ -568,13 +566,23 @@ nav ul li {
 
 /*.................................... media queries */
 
- @media screen and (max-width: 576px)
+ @media screen and (min-width: 320px)
  {
-    nav ul li{
-    margin: 0.2em;
-    font-size: 12px;
+  nav ul li {
+    padding:10px;
+}
+
+ }
+ @media screen and (max-width: 576px)
+ 
+ {
+  
+    nav ul li {
+    margin: 0.1em;
+    font-size: 14px;
     padding: 18px;
   }
+
 
   #navbar-logo {
     padding: 70px 0px 75px 0px;
@@ -643,12 +651,6 @@ nav ul li {
  
   @media screen and (max-width: 768px)
   {
-    nav ul li{
-      margin: 0.6em;
-      font-size: 14px;
-      padding: 18px;
-    }
-  
   .services-grid {
     padding: 0%;
     background-color: #fff;
@@ -709,11 +711,6 @@ nav ul li {
    @media screen and (max-width: 950px)
 
    {
-     nav ul li{
-      margin: 0.6em;
-      font-size: 14px;
-      padding: 18px;
-    }
   
   .services-grid {
     padding: 0%;
@@ -769,12 +766,13 @@ nav ul li {
   @media screen and (max-width: 1440px)
 
   {
-    nav ul li{
-      margin: 1em;
-      font-size: 18px;
-      padding: 20px;
+  /*
+    nav ul li {
+      margin: 0.2em;
+      font-size: 16px;
+      padding: 40px;
     }
-    
+  */
     .grid-about img,
     .services-grid img,
     .grid img {
@@ -784,6 +782,15 @@ nav ul li {
     .grid-about {
       grid-template-columns: repeat(2, 1fr);
     }
+    .test-grid{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .test-1,
+  .test-2,
+  .test-3 {
+    padding-bottom: 5rem;
+
+  }
   }
 
   
