@@ -218,8 +218,9 @@ nav ul li {
 }
 
 .test-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  display:flex;
+  max-width: 1200px;
+  min-height: 400px;
   margin: 0 auto;
   column-gap: 40px;
   padding: 20px 50px 50px 50px;
@@ -268,9 +269,7 @@ nav ul li {
 
 .grid-about{
   display: grid;
-  grid-template-columns:repeat(2, 1fr);
-  min-height: 600px;
-  min-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
   margin: 0 auto;
   column-gap: 3.25em;
   row-gap: 6.5em;
@@ -505,7 +504,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   background-color: #727778;
-  height: 300px;
+  min-height: 300px;
   width: auto;
   overflow: hidden;
 }
@@ -518,45 +517,55 @@ nav ul li {
 }
 
 .footer-grid ul li {
-  margin: 0;
   list-style: none;
-  display: inline;
-
+  display: inline-block;
+  
 }
 
 .footer-left {
   flex-grow: 1;
   flex-basis: 100%;
+  text-align: center;
 }
+
+.footer-left li {
+  width:300px;
+}
+
+.footer-middle li {
+  width:300px;
+}
+
 .footer-middle {
   flex-grow: 1;
   flex-basis: 100%;
+  text-align: center;
 }
   
 .footer-right {
   flex-grow: 1;
   flex-basis: 100%;
+  text-align: center;
 }
 
 .footer-text li{
+  display: inline;
   margin: 0;
   padding: 0;
-  color: #0d1b1e;
-  line-height: 1.5em;
-  padding-left: 9.25em;  
+  color: #0d1b1e;  
 }
 
 #socials i {
+
   font-size: 300%;
-  padding-left:75px;
-  padding-top: 75px;
+  padding-left:40px;
+  padding-top: 40px;
   color: #0d1b1e;
 }
 
 .footer-grid h3 i{
   color: #0d1b1e;
-  font-size: 150%;
-  padding-left: 0.5em;
+  font-size: 130%;
 }
 
 /*.................................... media queries */
@@ -628,18 +637,10 @@ nav ul li {
 
  .footer-grid {
   flex-direction: column;
-  height: auto;
-  align-items: center;
- }
-
- .footer-grid ul {
-  width: 400px;
+  justify-content: center;
+  
  }
  
- #socials i {
-  font-size: 220%;
-  padding: 0px 40px 35px 40px;
- }
 }
  
   @media screen and (max-width: 768px)
@@ -657,11 +658,12 @@ nav ul li {
   }
   
   .grid{
-    padding: 5% 15% 0% 15%;
+    padding: 5% 18% 0% 18%;
   }
 
   .grid img {
     width: 100%;
+    height: 82%;
   }
   .services-grid img{
     width: 100%;
@@ -701,26 +703,70 @@ nav ul li {
   .progress-bar-2 {
     width: auto;
   }
-  
-  .footer-grid {
-    flex-direction: row;
-    height: auto;
-    align-items: center;
-    
-   }
 
-   .footer-text li{
-    line-height: 1.5em;
-    padding: 2em;  
-   
+  #socials i {
+    padding: 50%;
+
   }
-   
-   #socials i {
-    font-size: 220%;
-    padding: 8%;
-   }
+}
   
-      
+  .
+   @media screen and (max-width: 950px)
+
+   {
+     nav ul li{
+      margin: 0.6em;
+      font-size: 14px;
+      padding: 18px;
+    }
+  
+  .services-grid {
+    padding: 0%;
+    background-color: #fff;
+    column-gap: 0%;
+  }
+
+  .grid img {
+    width: 100%;
+    height: 82%;
+  }
+  .services-grid img{
+    width: 100%;
+    justify-self: center;
+    
+  }
+  .grid-about {
+    display: inline;
+    margin: 40px;
+  }
+
+
+  .test-grid{
+    display:inline;
+
+  }
+  
+  .test-1,
+  .test-2,
+  .test-3 {
+    padding-bottom: 10em;
+  }
+
+  #progress-bar-section {
+    display: grid;
+    padding-bottom: 6rem;
+  }
+
+  #progress-bar-section img {
+    padding-bottom: 3rem;
+  }
+
+  .progress-bar-1,
+  .progress-bar-2 {
+    width: auto;
+  }
+   }
+   
   @media screen and (max-width: 1300px)
 
   {
