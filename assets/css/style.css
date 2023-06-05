@@ -783,6 +783,33 @@ nav ul li {
 
   }
   }
+
+  @media screen and (max-width: 1800px)
+  {
+    .grid-about img,
+    .services-grid img,
+    .grid img {
+     width: 100%;
+    }
+
+    .grid,
+    .services-grid,
+    .grid-about {
+      column-gap: 6%;
+    }
+
+    .grid-about {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .test-grid{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .test-1,
+  .test-2,
+  .test-3 {
+    padding-bottom: 5rem;
+  }
+  }
   
 
 
