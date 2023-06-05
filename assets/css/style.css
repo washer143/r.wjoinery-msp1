@@ -168,7 +168,7 @@ nav ul li {
   
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
   margin: 0 auto;
   column-gap: 40px;
   row-gap: 40px;
@@ -218,7 +218,9 @@ nav ul li {
 }
 
 .test-grid {
-  display:flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
+  column-gap: 40px;
   margin: 0 auto;
   padding: 20px 40px 40px 40px;
       
@@ -244,20 +246,20 @@ nav ul li {
 .test-1 {
   border: 20px solid #f2ede3;
   background-color: #fff;
-  width: 70%;
+  
 }
     
 .test-2 {
   border: 20px solid #f2ede3;
   background-color: #fff;
-  width: 70%;
+ 
   
 }
     
 .test-3 {
   border: 20px solid #f2ede3;
   background-color: #fff;
-  width: 70%;
+  
 
 }
   
@@ -594,7 +596,7 @@ nav ul li {
   .test-grid
   {
     display: inline;
-    padding: 0px;
+    padding: 10%;
   }  
 
   .contact-us {
@@ -775,27 +777,25 @@ nav ul li {
   .test-2,
   .test-3 {
     padding-bottom: 5rem;
-
   }
   }
 
-  @media screen and (max-width: 1800px)
+  @media screen and (max-width: 1920px)
   {
     .grid-about img,
     .services-grid img,
     .grid img {
      width: 100%;
     }
-    .test-grid,
-    .grid,
-    .services-grid,
-    .grid-about {
+   
+    .grid {
       column-gap: 6%;
     }
 
     .grid-about {
       grid-template-columns: repeat(2, 1fr);
     }
+    .grid-about,
     .test-grid{
       grid-template-columns: repeat(3,1fr);
     }

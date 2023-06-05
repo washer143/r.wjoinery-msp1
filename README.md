@@ -53,7 +53,6 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 ## Wireframes
   balsamiq was used to initiate website design and ideas. you can view all design ideas form mobile, tablet to desktop here. [wireframes](./wireframes/)
 
-# Features
 ## Home page
  * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a business. Giving the user the desired information through text and imagery identifying our USP. 
  
@@ -79,7 +78,7 @@ For my color scheme i've chosen to use grey and black for contrast in the header
   * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
   * it also also has our address, email and phone number in larger writing for customers to clarify our details and for users with poor vision.
 
- 
+ # Existing Features
  ## Navigation & Logo
 * The navbar and logo feature on all 4 pages, they're fully responsive and the logo acts as an active link to re-direct to the homepage, which i feel is a required function for user experience.
 * All four pages, home, about us, services and contact us, as is common with web design are positioned to right, which gives user familiarity.
@@ -87,17 +86,33 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 * I designed the nav bar to match the footer with the same grey and black color theme to match not only the logo but to also stand out, and make for an easier user experience.
    
 ![navigation-bar](screenshots/nav-bar.png)
+<img src="screenshots/logo.png" width=25% height=25%>
 
  ## Footer
  * The footer is displayed throughout all pages, with the address of our workshop to the left, opening hours displayed centrally and social media links displayed to the right. 
- * The footer is fully responsive, as the screen becomes smaller any content to the right will wrap underneath, with social media links displayed to the bottom, followed by opening hours and address details stacking on one another.
+ * The footer is fully responsive, as the screen becomes smaller any content to the right will wrap underneath, with active social media links displayed to the bottom, followed by opening hours and address details stacking on one another.
 
 ![footer](screenshots/footer.png)
 ## Home 
 * This page shows off a off a snippet of our services section to entice customers, with customer reviews aligned beneath. The services header is also active, so as with the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page. We also have a hero image with cover text that i used throughout except the contact page.
 
-[home-page](screenshots/hero-image.png)
-![home-page](screenshots/home-page.png)
+* The main hero image that is through three pages, Home, about us and services.
+
+![home-page](screenshots/hero-image.png)
+
+* Introduction to a snippet services section, with an active link which takes them straight to the full services page.
+
+<img src="screenshots/services-homepage.png" width=100% height=75%>
+   
+<img src="screenshots/services-button.png" width=25% height=25% >
+   
+<img src="screenshots/active-services-button.png" width=25% height=25%>
+
+* Testimonials section for customer feedback.
+
+<img src="screenshots/testimonials.png" width=100% height=75%>
+
+
 
 
 ## About us
@@ -108,20 +123,21 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 * Following this, the progress bar which is responsive:
 
 ![progress-bar](screenshots/progress-bar.png)
-![progress-bar](screenshots/progress-bar-responsive.png)
+<img src="screenshots/progress-bar-responsive.png" width=25% height=25%>
 
 ## Services 
 * This page provides a more in depth look at our services, with 6 pictures of varying joinery and carpentry work, we open the user up to a body of work with which they can feel comfortable in our abilities, a descriptive paragraph follows each image.
 
-![homepage](screenshots/services-page.png)
+<img src="screenshots/services-page-1.png" width=100% height=50%>
 
+<img src="screenshots/services-page-2.png" width=100% height=50%>
 ## Contact us
 * Containing a form block and address block, with a map spanning the width of the page beneath. This page strikes a different tone intentionally, aligning more with the navbar, footer and logo. 
 
 ![contact-form](screenshots/contact-form.png)
 
 # Map
-* Shows our location, if users should want to visit.
+* Spanning the entire width of the page, the map is easy to navigate for users.
  
 ![google-map](screenshots/contact-map.png)
 
@@ -129,22 +145,10 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 
 * An additional portfolio/gallery page that shows off a greater display of work.
 * pictures shown in the services section could be made more dynamic by using carousel to show before and after pictures.
-* Use of a back to the top arrow the save scrolling time.
+* Use of a back to the top arrow to save scrolling time.
 * Use of a hamburger button to reduce real estate on the navbar for smaller devices.
+* A landing page for when users have submitted they're form.
 
-# Languages
- * HTML
- * CSS
-
- # Websites & tools
- * Balsamiq (used for initial design ideas)
- * Coolors.com (for colour palette support)
- * Google Fonts ()
- * Font Awesome
- * Github
- * Gitpod
- * Git
- * freeconvert.com
  
 # Manual Testing
 ## Navigation
@@ -180,10 +184,7 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 
 * Lighthouse was run at the end of project development, as with validation, i unfortunately did not use light house to have more version control of my project, instead purely focusing on aesthetic design and trying to implement my vision with coding. Going forward i would make full use of lighthouse and fine tune my website according to lighthouse scores.
 
-# Responsiveness
-
-
-## Browser Compatibility
+# Browser Compatibility
 The website was tested on the following browsers:
 * Google Chrome
 * Safari
@@ -191,36 +192,34 @@ The website was tested on the following browsers:
 
 They all appeared as they should.
 
-## Deployment
+# Deployment
 The website was deployed using github, these are the steps i followed.
-* Login to github
-* click on settings tab above green code button
+* Login to github.
+* click on settings tab placed above the green code button.
 * On the left scroll to find "Pages" which will open up a new section.
-* Go to source and select master branch
+* Go to source and select master branch.
 * Once master branch has been selected, the page will give you a link indicating a successful deployment.
 The link to the live website is here: https://washer143.github.io/r.wjoinery-msp1/
 
 
 If you wish to clone the repository these are the steps to take:
 * Go to github repository.
-* Go to code button located next gitpod button and click.
-* Select if wish to clone with https, SSH or Github CLI. 
+* Go to the code button located next to the gitpod button and click.
+* Select if you want to clone with https, SSH or Github CLI. 
 * Click button beside url to copy to clipboard
-* Open with github desktop, and follow the prompts to complete the clone.
+* Open with github desktop, and follow the prompts to complete the clone. 
+* Alternatively you can open Git Bash and change the current working directory, to where you want a cloned directory.
+* Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+
+If you want to fork the repository you can click the fork button located towards the top right of the page.
+
+# Responsiveness
+As i started this project on my laptop i produced this project for laptop version first. I felt this would be the best way to implement my ideas and project and then scale down, but as i came to media queries i ran into a multitude of issues, after painstakingly adding and editing, i finally got it to respond the way i wanted to, but still not without its issues.
 
 
+# Bugs
 
-
-
-
-
-
-
-The link to the live website is here: https://washer143.github.io/r.wjoinery-msp1/
-
-## Bugs
-
-## Unfixed Bugs
+# Unfixed Bugs
 
  # Languages
  * HTML
@@ -239,7 +238,12 @@ The link to the live website is here: https://washer143.github.io/r.wjoinery-msp
  
 
 ## Credits
+
 ## Photos
+
+From unsplash
+*
+
 
 ## Takeaway
 
