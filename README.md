@@ -146,11 +146,6 @@ For my color scheme i've chosen to use grey and black for contrast in the header
  * Git
  * freeconvert.com
  
-
-
-
-
-
 # Manual Testing
 ## Navigation
 
@@ -194,7 +189,35 @@ The website was tested on the following browsers:
 * Safari
 * Mozilla Firefox
 
+They all appeared as they should.
+
 ## Deployment
+The website was deployed using github, these are the steps i followed.
+* Login to github
+* click on settings tab above green code button
+* On the left scroll to find "Pages" which will open up a new section.
+* Go to source and select master branch
+* Once master branch has been selected, the page will give you a link indicating a successful deployment.
+The link to the live website is here: https://washer143.github.io/r.wjoinery-msp1/
+
+
+If you wish to clone the repository these are the steps to take:
+* Go to github repository.
+* Go to code button located next gitpod button and click.
+* Select if wish to clone with https, SSH or Github CLI. 
+* Click button beside url to copy to clipboard
+* Open with github desktop, and follow the prompts to complete the clone.
+
+
+
+
+
+
+
+
+
+The link to the live website is here: https://washer143.github.io/r.wjoinery-msp1/
+
 ## Bugs
 
 ## Unfixed Bugs

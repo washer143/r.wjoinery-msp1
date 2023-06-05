@@ -34,7 +34,7 @@ nav {
   align-items: center;
   background-color: #727778;
   justify-content: space-between;
-  overflow: auto;
+  overflow: hidden;
   min-height: 6.25rem;  
   }
 
@@ -220,7 +220,6 @@ nav ul li {
 .test-grid {
   display:flex;
   margin: 0 auto;
-  column-gap: 40px;
   padding: 20px 40px 40px 40px;
       
 }
@@ -245,16 +244,21 @@ nav ul li {
 .test-1 {
   border: 20px solid #f2ede3;
   background-color: #fff;
+  width: 70%;
 }
     
 .test-2 {
   border: 20px solid #f2ede3;
   background-color: #fff;
+  width: 70%;
+  
 }
     
 .test-3 {
   border: 20px solid #f2ede3;
   background-color: #fff;
+  width: 70%;
+
 }
   
 .checked {
@@ -775,7 +779,7 @@ nav ul li {
   }
   }
 
-  @media screen and (max-width: 1920px)
+  @media screen and (max-width: 1800px)
   {
     .grid-about img,
     .services-grid img,
@@ -787,8 +791,6 @@ nav ul li {
     .services-grid,
     .grid-about {
       column-gap: 6%;
-      padding-left: 10%;
-      padding-right: 10%;
     }
 
     .grid-about {
