@@ -2,7 +2,7 @@
 # Introduction
 <p> This is a fictional website based on my current job working as a joiner/carpenter. This website will advertise bespoke joinery catered to the customers needs. It will advertise an array of different joinery skills and projects that i have completed in my 13 years as a joiner, showcasing stairs, windows, kitchens, doors and anything that may have been produced by myself.
 
-The website will cater to customers that desire handmade craftsmanship and joinery, that is fulfilled to a high standard and with great care. The website will reflect this through previous customer feedback and photographic evidence. Through the information provided this should give the customer a good understanding of the quality of work being provided, and lead them to contact us and get a quote. </p>  
+The website will cater to customers that desire handmade craftsmanship and joinery, that is fulfilled to a high standard and with great care. The website will reflect this through previous customer feedback and photographic evidence. Through the information provided this should give the customer a good understanding of the quality of work being provided, and lead them to contact us. </p>  
    
 # User Experience (ux)
 
@@ -45,7 +45,7 @@ The website will be easy to navigate and user friendly, with a recognizable navb
 
 For my color scheme i've chosen to use grey and black for contrast in the header and footer to give a modern touch, then for the body i chose an off white color to make it easy on the eyes and to give a feeling of warmth and contentment. This is what i would hope the user would sense. Then theres a theme of a dark red and gold color running throughout, for the headers and logo.
 
-![color-palette](../r.wjoinery-msp1/documentation/features/color-palette.png)
+![color-palette](documentation/features/color-palette.png)
 
 
 
@@ -73,9 +73,6 @@ For my color scheme i've chosen to use grey and black for contrast in the header
   * This page will feature a new hero image as a back drop to signify importance to get in contact.
   * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
   * it also also has our address, email and phone number in larger writing for customers to clarify our details and for users with poor vision.
-
- ## Wireframes
- * balsamiq was used to initiate website design and ideas. you can view the wireframes in my documentation.
   
  # Features
  
@@ -85,43 +82,49 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 * All links turn a different color when hovered over to signify activity, and to click. Give easy navigation to users.
 * I designed the nav bar to match the footer with the same grey and black color theme to match not only the logo but to also stand out, and make for an easier user experience.
    
-   ![navigation-bar](../r.wjoinery-msp1/documentation/features/nav-bar.png)
-
+![navigation-bar](screenshots/nav-bar.png)
 
  ## Footer
  * The footer is displayed throughout all pages, with the address of our workshop to the left, opening hours displayed centrally and social media links displayed to the right. 
  * The footer is fully responsive, as the screen becomes smaller any content to the right will wrap underneath, with social media links displayed to the bottom, followed by opening hours and address details stacking on one another.
- ![footer-content](../r.wjoinery-msp1/documentation/features/footer.png)
 
+![footer](screenshots/footer.png)
 ## Home 
 * This page shows off a snippet of our services section to entice customers, with customer reviews aligned beneath. The services header is also active, so as with the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page.
-  ![footer-content](../r.wjoinery-msp1/documentation/features/home-page.png)
 
+![home-page](screenshots/home-page.png)
 
 ## About us
 * This page provides a deep insight to the owners skills and experience, with pictures aligned either side of each paragraph. A progress bar follows below giving a visual cue of customer satisfaction with the logo matching in color theme.
 
-   ![about-us-page](../r.wjoinery-msp1/documentation/features/about-us.png)
+![about-page](screenshots/about-us.png)
 
 * Following this, the progress bar which is responsive:
 
-
-   ![progress-bar](../r.wjoinery-msp1/documentation/features/progress-bar.png)
-
+![progress-bar](screenshots/progress-bar.png)
 ## Services 
 * This page provides a more in depth look at our services, with 6 pictures of varying joinery and carpentry work, we open the user up to a body of work with which they can feel comfortable in our abilities, a descriptive paragraph follows each image.
 
-   ![about-us-page](../r.wjoinery-msp1/documentation/features/services-page.png)
+![Alt text](screenshots/services-homepage.png)
 
 ## Contact us
 * Containing a form block and address block, with a map spanning the width of the page beneath. This page strikes a different tone intentionally, aligning more with the navbar, footer and logo. 
 
-    ![contact-form](../r.wjoinery-msp1/documentation/features/contact-form.png)
+![contact-form](screenshots/contact-form.png)
 
 # Map
-* Shows our location, if users would want to visit.
+* Shows our location, if users should want to visit.
  
-    ![google-map](../r.wjoinery-msp1/documentation/features/contact-map.png)
+![google-map](screenshots/contact-map.png)
+
+## Future Features
+* An additional portfolio/gallery page that shows off a greater display of work.
+* pictures shown in the services section could be made more dynamic by using carousel to show before and after pictures.
+* Use of a back to the top arrow the save scrolling time.
+* Use of a hamburger button to reduce real estate on the navbar for smaller devices.
+
+
+
 
    
 
@@ -137,7 +140,8 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 
 
 
-
+## Wireframes
+ * balsamiq was used to initiate website design and ideas. you can view the wireframes in my documentation.
 
 # Testing
 ## Validation
@@ -155,6 +159,7 @@ For my color scheme i've chosen to use grey and black for contrast in the header
  * Gitpod
  * Git
  * freeconvert.com
+ * 
 
 
 
