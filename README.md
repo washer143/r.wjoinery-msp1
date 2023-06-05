@@ -43,13 +43,18 @@ The website will be easy to navigate and user friendly, with a recognizable navb
 
 ## Colors 
 
-For my color scheme i've chosen to use grey and black for contrast in the header and footer to give a modern touch, then for the body i chose an off white color to make it easy on the eyes and to give a feeling of warmth and contentment. This is what i would hope the user would sense. Then theres a theme of a dark red and gold color running throughout, for the headers and logo.
+For my color scheme i've chosen to use grey and black for contrast in the header and footer to give a modern touch, then for the body i chose an off white color to make it easy on the eyes and to give a feeling of warmth and contentment. This is what i would hope the user would sense. I chose to use a white padding around every photo to make them stand out, also to give the writing more body. Then theres a theme of a dark red and gold color running throughout, for the headers and logo and certain features, creating a continuous theme throughout, keeping familiarity to the user.
 
-![color-palette](documentation/features/color-palette.png)
+![color-palette](/screenshots/color-palette.png)
 
+## Fonts
+ The font used throughout the project are "lato" and "mukta", I chose these fonts as i felt they had a crispness and modern feel to it, to make them stand out. I made sure to have them #000000 black and increased the weight on the font where necessary to give it more projection and readability.
 
+## Wireframes
+  balsamiq was used to initiate website design and ideas. you can view all design ideas form mobile, tablet to desktop here. [wireframes](./wireframes/)
 
- ## Home page
+# Features
+## Home page
  * The home page features a hero image with text overlay, a slogan and title explaining what we offer as a business. Giving the user the desired information through text and imagery identifying our USP. 
  
  * Below the hero image we'll show a snippet of our services to intrigue and invite the user to investigate further and navigate throughout the website. 
@@ -73,8 +78,7 @@ For my color scheme i've chosen to use grey and black for contrast in the header
   * This page will feature a new hero image as a back drop to signify importance to get in contact.
   * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
   * it also also has our address, email and phone number in larger writing for customers to clarify our details and for users with poor vision.
-  
- # Features
+
  
  ## Navigation & Logo
 * The navbar and logo feature on all 4 pages, they're fully responsive and the logo acts as an active link to re-direct to the homepage, which i feel is a required function for user experience.
@@ -90,9 +94,11 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 
 ![footer](screenshots/footer.png)
 ## Home 
-* This page shows off a snippet of our services section to entice customers, with customer reviews aligned beneath. The services header is also active, so as with the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page.
+* This page shows off a off a snippet of our services section to entice customers, with customer reviews aligned beneath. The services header is also active, so as with the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page. We also have a hero image with cover text that i used throughout except the contact page.
 
+[home-page](screenshots/hero-image.png)
 ![home-page](screenshots/home-page.png)
+
 
 ## About us
 * This page provides a deep insight to the owners skills and experience, with pictures aligned either side of each paragraph. A progress bar follows below giving a visual cue of customer satisfaction with the logo matching in color theme.
@@ -102,10 +108,12 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 * Following this, the progress bar which is responsive:
 
 ![progress-bar](screenshots/progress-bar.png)
+![progress-bar](screenshots/progress-bar-responsive.png)
+
 ## Services 
 * This page provides a more in depth look at our services, with 6 pictures of varying joinery and carpentry work, we open the user up to a body of work with which they can feel comfortable in our abilities, a descriptive paragraph follows each image.
 
-![Alt text](screenshots/services-homepage.png)
+![homepage](screenshots/services-page.png)
 
 ## Contact us
 * Containing a form block and address block, with a map spanning the width of the page beneath. This page strikes a different tone intentionally, aligning more with the navbar, footer and logo. 
@@ -118,49 +126,99 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 ![google-map](screenshots/contact-map.png)
 
 ## Future Features
+
 * An additional portfolio/gallery page that shows off a greater display of work.
 * pictures shown in the services section could be made more dynamic by using carousel to show before and after pictures.
 * Use of a back to the top arrow the save scrolling time.
 * Use of a hamburger button to reduce real estate on the navbar for smaller devices.
 
-
-
-
-   
-
-  
-
-
-
-
-
-
-
-
-
-
-
-## Wireframes
- * balsamiq was used to initiate website design and ideas. you can view the wireframes in my documentation.
-
-# Testing
-## Validation
-## Responsiveness
- # Languages
+# Languages
  * HTML
  * CSS
 
  # Websites & tools
- * Balsamiq
- * Coolors.com
- * Google Fonts
+ * Balsamiq (used for initial design ideas)
+ * Coolors.com (for colour palette support)
+ * Google Fonts ()
  * Font Awesome
  * Github
  * Gitpod
  * Git
  * freeconvert.com
- * 
+ 
 
+
+
+
+
+# Manual Testing
+## Navigation
+
+* Navigation bar logo is active and responds to re-directing back to the homepage when clicking.
+* Menu links are active and work as they should.
+* The menu list turns yellow when hovered over which indicates functionality and responds as intended.
+* The navbar is also fully responsive with menu list items wrapping beneath logo on smaller devices, working as intended.
+
+## Home page
+
+* On the home page the services button works as intended redirecting users to a more in depth look at services page.
+* The hover function works as intended turning yellow once hovered over.
+
+## About page
+
+* We have a dynamic progress bar situated below our "Experience" and The workshop" write up. Its fully responsive and works as it should, with the progress bars reducing in size for smaller screens with the logo situated neatly above it.
+
+## Services page
+
+* The services section contains two rows of three images aligned next to each other with three columns separating the images. They wrap into rows of two images and then one as the screen size decreases working as intended.
+
+## Contact page
+
+* Contact form works as intended, all fields have to be have the sufficient data correctly entered for the form to submit.
+* It submits correctly to Code Institute form dump with name, email, phone number and message all recorded as submitted.
+![email-submitted](/screenshots/code-institute-formdump.png)
+
+# Validation
+* HTML Validator was run explicitly towards the end of project development. All issues that were identified have been fix'd, any changes that were made, i made sure to run it through again to make sure there were no miscellaneous code displaced. This may have been a mistake on my part to not run it through til end of my project, moving on to other projects i'll be sure to have more control and insight to my project by putting my code through from the start of building my project, therefore having more control in the process of building my webpage.
+
+* CSS Validator and jigsaw validator was also run at the end phase of the project luckily finding no issues in my code.
+
+* Lighthouse was run at the end of project development, as with validation, i unfortunately did not use light house to have more version control of my project, instead purely focusing on aesthetic design and trying to implement my vision with coding. Going forward i would make full use of lighthouse and fine tune my website according to lighthouse scores.
+
+# Responsiveness
+
+
+## Browser Compatibility
+The website was tested on the following browsers:
+* Google Chrome
+* Safari
+* Mozilla Firefox
+
+## Deployment
+## Bugs
+
+## Unfixed Bugs
+
+ # Languages
+ * HTML
+ * CSS
+
+ # Websites & tools
+ * Balsamiq (for wireframes and initial development ideas)
+ * Coolors (for color palette inspiration)
+ * Google Fonts (to choose the right fonts for my project)
+ * Google maps (to provide map for contact page)
+ * Font Awesome (for icons throughout project)
+ * Github (to store my repository)
+ * Gitpod (to build my project and write code)
+ * Git (for version control)
+ * freeconvert (to convert my png pictures to webp)
+ 
+
+## Credits
+## Photos
+
+## Takeaway
 
 
 

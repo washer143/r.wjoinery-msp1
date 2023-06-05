@@ -10,7 +10,7 @@
 body {
   font-family: lato, sans-serif;
   font-weight: 300;
-  color: #3d3736;
+  color: #000000;
   background-color: #f2ede3;
 }
 
@@ -564,25 +564,14 @@ nav ul li {
   font-size: 130%;
 }
 
-/*.................................... media queries */
-
- @media screen and (min-width: 320px)
- {
-  nav ul li {
-    padding:10px;
-}
-
- }
 
  /*.................................... small to medium screen sizes */
  @media screen and (max-width: 576px)
  
  {
-  
     nav ul li {
     margin: 0.1em;
     font-size: 14px;
-    padding: 16px;
   }
 
 
@@ -705,15 +694,17 @@ nav ul li {
   .progress-bar-2 {
     width: auto;
   }
-
-  
 }
   
   
    @media screen and (max-width: 950px)
 
    {
-  
+    nav ul li {
+      margin: 0.1em;
+      font-size: 14px;
+      padding: 10px;
+    }
   .services-grid {
     padding: 0%;
     background-color: #fff;
@@ -784,18 +775,20 @@ nav ul li {
   }
   }
 
-  @media screen and (max-width: 1800px)
+  @media screen and (max-width: 1920px)
   {
     .grid-about img,
     .services-grid img,
     .grid img {
      width: 100%;
     }
-
+    .test-grid,
     .grid,
     .services-grid,
     .grid-about {
       column-gap: 6%;
+      padding-left: 10%;
+      padding-right: 10%;
     }
 
     .grid-about {
