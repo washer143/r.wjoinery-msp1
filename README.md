@@ -21,9 +21,9 @@ The website will cater to customers that desire handmade craftsmanship and joine
 
 
 
-## Buisness goals:
+## Business goals:
 * Creating an online presence to grow our local customer base
-* Providing easy access to contact the buisness 
+* Providing easy access to contact the business 
 * Growing our social media following
 * Access for disabled users
 * Information is intuitive to follow 
@@ -71,30 +71,30 @@ For my color scheme i've chosen to use grey and black for contrast in the header
  ## Services
  * hero image with text overlay to keep the same theme running through the website.
 
- * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a description running along each section to give the customer a better understanding of how they could utilize for themselves. It will also showcase our knowledge craftsmanship in more detail.
+ * This page contains 6 sections relaying to different types of joinery that the user can refer to for they're own ideas and projects. With images and a descriptions running along each section to give the customer a better understanding of what we can do. It will also showcase our knowledge in craftsmanship in more detail giving confidence in the service we could provide.
 
  ## Contact Page
   * This page will feature a new hero image as a back drop to signify importance to get in contact.
   * The page has a form that the user can use to fill out they're name, e-mail, phone number and message, which are all required, with a submit button.
   * it also also has our address, email and phone number in larger writing for customers to clarify our details and for users with poor vision.
 
- # Existing Features
+ # Existing Features and Testing (UX)
  ## Navigation & Logo
 * The navbar and logo feature on all 4 pages, they're fully responsive and the logo acts as an active link to re-direct to the homepage, which i feel is a required function for user experience.
 * All four pages, home, about us, services and contact us, as is common with web design are positioned to right, which gives user familiarity.
-* All links turn a different color when hovered over to signify activity, and to click. Give easy navigation to users.
-* I designed the nav bar to match the footer with the same grey and black color theme to match not only the logo but to also stand out, and make for an easier user experience.
+* All links turn a different color when hovered over to signify activity, and to click. Giving easy navigation to users.
+* I designed the nav bar to match the footer with the same grey and black color theme to match the logo, but to also stand out, and make navigation a simple user experience.
    
 ![navigation-bar](screenshots/nav-bar.png)
 <img src="screenshots/logo.png" width=25% height=25%>
 
  ## Footer
- * The footer is displayed throughout all pages, with the address of our workshop to the left, opening hours displayed centrally and social media links displayed to the right. 
+ * The footer is displayed throughout all pages, with the address of our workshop to the left, opening hours displayed centrally and social media links displayed to the right.  
  * The footer is fully responsive, as the screen becomes smaller any content to the right will wrap underneath, with active social media links displayed to the bottom, followed by opening hours and address details stacking on one another.
 
 ![footer](screenshots/footer.png)
 ## Home 
-* This page shows off a off a snippet of our services section to entice customers, with customer reviews aligned beneath. The services header is also active, so as with the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page. We also have a hero image with cover text that i used throughout except the contact page.
+* This page shows off a snippet of our services section to entice customers, with customer reviews aligned beneath to give users positive re-enforcement. The services header is also active, just like the navbar, it changes color when hovered over, when clicked they will be re-directed straight to the services page. We also have a beautiful hero image of a man working on a lathe, this image lets users know that they've directed themselves to the right page.
 
 * The main hero image that is through three pages, Home, about us and services.
 
@@ -116,23 +116,23 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 
 
 ## About us
-* This page provides a deep insight to the owners skills and experience, with pictures aligned either side of each paragraph. A progress bar follows below giving a visual cue of customer satisfaction with the logo matching in color theme.
+* This page provides a deep insight to the owners skills and experience, with pictures aligned either side of each paragraph. A progress bar follows below giving a visual cue of customer satisfaction with the logo matching in color theme. As a user i want get a feel feel for the business, and the people behind it, this is what this page hopefully achieves for the business, by getting more personal.
 
 ![about-page](screenshots/about-us.png)
 
-* Following this, the progress bar which is responsive:
+* This is the progress bar that follows beneath which is responsive:
 
 ![progress-bar](screenshots/progress-bar.png)
 <img src="screenshots/progress-bar-responsive.png" width=25% height=25%>
 
 ## Services 
-* This page provides a more in depth look at our services, with 6 pictures of varying joinery and carpentry work, we open the user up to a body of work with which they can feel comfortable in our abilities, a descriptive paragraph follows each image.
+* This page provides a more in depth look at our services, with 6 pictures of varying joinery and carpentry work, we open the user to a body of work with which they can feel comfortable in our abilities, a descriptive paragraph follows each image.
 
 <img src="screenshots/services-page-1.png" width=100% height=50%>
 
 <img src="screenshots/services-page-2.png" width=100% height=50%>
 ## Contact us
-* Containing a form block and address block, with a map spanning the width of the page beneath. This page strikes a different tone intentionally, aligning more with the navbar, footer and logo. 
+* Containing a form block and address block, with a map spanning the width of the page beneath. This page strikes a different tone intentionally, aligning more with the navbar, footer and logo. This lets the user know they've landed on an important page, and to get in contact.
 
 ![contact-form](screenshots/contact-form.png)
 
@@ -177,12 +177,13 @@ For my color scheme i've chosen to use grey and black for contrast in the header
 * It submits correctly to Code Institute form dump with name, email, phone number and message all recorded as submitted.
 ![email-submitted](/screenshots/code-institute-formdump.png)
 
+# Testing User Stories
 # Validation
 * HTML Validator was run explicitly towards the end of project development. All issues that were identified have been fix'd, any changes that were made, i made sure to run it through again to make sure there were no miscellaneous code displaced. This may have been a mistake on my part to not run it through til end of my project, moving on to other projects i'll be sure to have more control and insight to my project by putting my code through from the start of building my project, therefore having more control in the process of building my webpage.
 
 * CSS Validator and jigsaw validator was also run at the end phase of the project luckily finding no issues in my code.
 
-* Lighthouse was run at the end of project development, as with validation, i unfortunately did not use light house to have more version control of my project, instead purely focusing on aesthetic design and trying to implement my vision with coding. Going forward i would make full use of lighthouse and fine tune my website according to lighthouse scores.
+* Lighthouse was run at the end of project development, as with validation, i unfortunately did not use light house to have more version control of my project, instead purely focusing on aesthetic design and trying to implement my vision with coding. Going forward i would make full use of lighthouse and fine tune my website as i go along, using lighthouse as a tool to edit/fix any issues, making for a better performing and more accessible website.
 
 # Browser Compatibility
 The website was tested on the following browsers:
@@ -214,9 +215,8 @@ If you wish to clone the repository these are the steps to take:
 If you want to fork the repository you can click the fork button located towards the top right of the page.
 
 # Responsiveness
-As i started this project on my laptop i produced this project for laptop version first. I felt this would be the best way to implement my ideas and project and then scale down, but as i came to media queries i ran into a multitude of issues, after painstakingly adding and editing, i finally got it to respond the way i wanted to, but still not without its issues.
-
-
+i started this project on my laptop, i therefore instinctively produced this project as a laptop version first project, which in hindsight i should have given more thought to, but at the time i felt it would be the best way to implement my ideas and then scale down, not that there is a problem with this option, but as i came to learn in media queries, i ran into a multitude of issues. After painstakingly adding and editing code, i finally got it to respond the way i wanted to, from laptop, tablet to mobile device. However for much larger desktop screens i need to tweak the project, by doing a four grid layout system, so there's enough material to span across the page. This is something to consider for future projects.
+ 
 # Bugs
 
 # Unfixed Bugs

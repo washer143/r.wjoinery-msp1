@@ -787,15 +787,7 @@ nav ul li {
     .grid img {
      width: 100%;
     }
-   
-    .grid {
-      column-gap: 6%;
-    }
-
-    .grid-about {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .grid-about,
+    
     .test-grid{
       grid-template-columns: repeat(3,1fr);
     }
