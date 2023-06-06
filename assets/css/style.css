@@ -651,8 +651,10 @@ nav ul li {
  
 }
  /*.................................... medium to large tablet screen sizes */
-  @media screen and (max-width: 768px)
+
+ @media screen and (max-width: 768px)
   {
+  
   .services-grid {
     padding: 0%;
     background-color: #fff;
@@ -775,9 +777,10 @@ nav ul li {
     .test-grid{
       grid-template-columns: repeat(3,1fr);
     }
-    .test-1,
-  .test-2,
-  .test-3 {
+  
+  .test-1,
+   .test-2,
+   .test-3 {
     padding-bottom: 5rem;
   }
   }
