@@ -509,6 +509,7 @@ nav ul li {
   flex-direction: row;
   background-color: #727778;
   min-height: 225px;
+  margin-top: auto;
   width: auto;
   overflow: hidden;
 }
